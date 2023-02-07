@@ -1,0 +1,94 @@
+
+list=[]
+
+Input = [10, 20, 30, 20, 20, 30, 40, 50, -20, 60, 60, -20, -20]
+
+print(input[0])
+Output : [20, 30, -20, 60]
+
+def process(list_data0:
+  passed_elements=[]
+  output_list=[]
+  for item in list_data0:
+     if item in passed_elements :
+	     if item not in output_list
+	         output_list.append(item)
+	 elseif  :
+	      passed_elements.append(item)
+		  
+	10,	20,30,  
+
+  20,30,
+  
+  given: list1 = [1, 2, [300, 400, [5000, 6000], 500], 3, 4]      [1,2,3,4[300,400,500,[5000,6000,10]]]
+  
+  output: [1, 2, [300, 400, [5000, 6000, 7000], 500], 3, 4]
+  
+  
+  list_form_second_index = given_list[2]
+  
+  sublist = list_form_second_index[2]
+  
+  second_sublist= sublist = sublist[2]
+  second_sublist.append(7000)
+  sublist[2] =second_sublist
+  list_form_second_index[]
+  
+  
+  
+ Employees
+
+
+
+
+
+
+ID
+FName
+LName
+Gender
+dept
+Salary
+
+1
+Kuldeep
+Rao
+Female
+Manager
+30000
+
+
+
+
+Projects
+ProjectID
+EmployeeID
+ProjectName
+
+1
+1
+GRS
+
+select * from( 
+
+select FName,Gender,Salary ,dence_rank() over(partition by FName,Gender order by salary desc) dence_rank
+
+from table t1 inner join tabl2 on t1.id=t2.employeeId) ) where dence_rank=3
+  
+  
+  
+  
+ select t1.FName,array_agg(t.Project_name) projects_list  ,count(project_name)   count
+  
+from table t1 inner join tabl2 on t1.id=t2.employeeId
+
+group by FName  having count>1
+  
+  
+  
+  
+  
+  
+  
+  
+    
